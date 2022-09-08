@@ -16,7 +16,9 @@
 </head>
 
 <body>
-    <div>Hello 1</div>
+
+    <div>Test commit</div>
+
     <header style="position: relative;">
         <div class="header">
             <div class="header-part-1"><a href="/"><img src="/img/logo.svg" alt="Alliance Production"></a></div>
