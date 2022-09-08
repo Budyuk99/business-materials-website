@@ -16,6 +16,16 @@
 </head>
 
 <body>
+    <div class="mobile-menu-hidden">
+        <div class="mobile-menu-block-test">
+            <div class="mobile-menu-item-3-test"></div>
+            <div class="mobile-menu-item-2-test"><a href="/"></a></div>
+            <div class="mobile-menu-item-1-test">
+                <div class="close"></div>
+            </div>
+        </div>
+        <!-- <div class="close"></div> -->
+    </div>
     <header style="position: relative;">
         <div class="header">
             <div class="header-part-1"><a href="/"><img src="/img/logo.svg" alt="Alliance Production"></a></div>
@@ -35,6 +45,18 @@
             </div>
             <div class="header-part-4"><a href="#" class="callback">Получить консультацию</a></div>
         </div>
+
+        <div class="mobile-menu-block">
+            <div class="mobile-menu-item-3"><img src="/img/phone-white.svg" alt="phone-white"></div>
+            <div class="mobile-menu-item-2"><a href="/"><img src="/img/logo.svg" alt="Alliance Production"></a></div>
+            <div class="mobile-menu-item-1">
+                <div class="mobile-menu-block-2">
+                    <div class="mobile-menu-part mobile-menu-part-first"></div>
+                    <div class="mobile-menu-part mobile-menu-part-middle"></div>
+                    <div class="mobile-menu-part mobile-menu-part-third"></div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <section class="banner-section">
@@ -45,7 +67,7 @@
                     <div class="part-of-border"></div>
                 </div>
 
-                <h1 class="main-text">КОМПЛЕКСНОЕ ОБЕСПЕЧЕНИЕ ТОВАРАМИ<br>И РАСХОДНЫМИ МАТЕРИАЛАМИ БИЗНЕСА</h1>
+                <h1 class="main-text">Комплексное обеспечение товарами<br>и расходными материалами бизнеса</h1>
 
                 <div class="add-text">
                     Высокий уровень вовлечения представителей целевой аудитории является четким
@@ -56,11 +78,11 @@
                 <div class="about-company"><a href="#" class="about-company-link">Подробнее о компании</a></div>
 
                 <div class="header-bottom-block">
-                    <div class="header-bottom-item"><img src="/img/Hourglass.svg">Непрерывная работа c 2017 года</div>
-                    <div class="header-bottom-item"><img src="/img/List.svg">Вся продукция сертифицирована</div>
-                    <div class="header-bottom-item"><img src="/img/Builder.svg">Контроль качества на всех этапах</div>
-                    <div class="header-bottom-item"><img src="/img/Car.svg">Возможны поставки по всей России</div>
-                    <div class="header-bottom-item"><img src="/img/Speedtest.svg">Оперативное производство</div>
+                    <div class="header-bottom-item"><img src="/img/Hourglass.svg"><span>Непрерывная работа c 2017 года</span></div>
+                    <div class="header-bottom-item"><img src="/img/List.svg"><span>Вся продукция сертифицирована</span></div>
+                    <div class="header-bottom-item"><img src="/img/Builder.svg"><span>Контроль качества на всех этапах</span></div>
+                    <div class="header-bottom-item"><img src="/img/Car.svg"><span>Возможны поставки по всей России</span></div>
+                    <div class="header-bottom-item"><img src="/img/Speedtest.svg"><span>Оперативное производство</span></div>
                 </div>
             </div>
         </div>
@@ -75,26 +97,34 @@
                     <div class="schema-block">
                         <div class="schema-item">
                             <div class="schema-number"><span>01</span><span class="schema-number-line"></span></div>
-                            <h3>Знакомство</h3>
-                            <div class="schema-item-desc">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</div>
-                            <div class="leave-app-block">
-                                <div class="leave-app-line"></div><a href="#" class="leave-app-link">Оставить заявку</a>
+                            <div class="uniting-block-1">
+                                <h3>Знакомство</h3>
+                                <div class="schema-item-desc">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</div>
+                                <div class="leave-app-block leave-app-block-1">
+                                    <div class="leave-app-line"></div><a href="#" class="leave-app-link">Оставить заявку</a>
+                                </div>
                             </div>
                         </div>
                         <div class="schema-item">
                             <div class="schema-number"><span>02</span><span class="schema-number-line"></span></div>
-                            <h3>Заключение договора</h3>
-                            <div class="schema-item-desc">Лишь интерактивные прототипы призваны к ответу.</div>
+                            <div class="uniting-block-1">
+                                <h3>Заключение договора</h3>
+                                <div class="schema-item-desc">Лишь интерактивные прототипы призваны к ответу.</div>
+                            </div>
                         </div>
                         <div class="schema-item">
                             <div class="schema-number"><span>03</span><span class="schema-number-line"></span></div>
-                            <h3>Производство</h3>
-                            <div class="schema-item-desc">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</div>
+                            <div class="uniting-block-1">
+                                <h3>Производство</h3>
+                                <div class="schema-item-desc">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</div>
+                            </div>
                         </div>
                         <div class="schema-item">
                             <div class="schema-number"><span>04</span><span class="schema-number-line"></span></div>
-                            <h3>Доставка</h3>
-                            <div class="schema-item-desc">В частности, экономическая повестка сегодняшнего дня говорит о возможностях приоритизации разума над эмоциями.</div>
+                            <div class="uniting-block-1">
+                                <h3>Доставка</h3>
+                                <div class="schema-item-desc">В частности, экономическая повестка сегодняшнего дня говорит о возможностях приоритизации разума над эмоциями.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,7 +182,7 @@
             </div>
 
             <div class="container content-part">
-                <div class="part-of-border-main">
+                <div class="part-of-border-main part-of-border-main-1">
                     <div class="part-of-border"></div>
                     <h2 class="header-text">Собственные торговые марки</h2>
                     <div class="own-trademarks-block">
@@ -180,10 +210,11 @@
                 </div>
             </div>
 
+            <div class="business-and-clients-item business-and-clients-item-hidden-img"></div>
             <div class="container content-part-dop-1">
                 <div class="part-of-border-main">
                     <div class="business-and-clients-block">
-                        <div class="business-and-clients-item"><img src="/img/men.png" alt=""></div>
+                        <div class="business-and-clients-item business-and-clients-item-hidden-img-1"><img src="/img/men.png" alt=""></div>
                         <div class="business-and-clients-item">
                             <div class="part-of-border-dop-1"></div>
                             <h2 class="header-text">Отношение к делу и к клиентам</h2>
@@ -212,10 +243,10 @@
 
             <div class="container content-part">
                 <div class="we-produce-block">
-                    <div class="part-of-border-main we-produce-item">
+                    <div class="part-of-border-main we-produce-item we-produce-item-1">
                         <div class="part-of-border"></div>
                         <h2 class="header-text">Производим аэрозольную продукцию для разных сфер</h2>
-                        <div>
+                        <div class="various-areas-block-main">
                             <ul class="various-areas-block">
                                 <li class="various-areas-item"><img src="/img/list-img/img1.svg"><span>Химические производства</span></li>
                                 <li class="various-areas-item"><img src="/img/list-img/img2.svg"><span>Автомойки</span></li>
@@ -230,7 +261,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="we-produce-item">
+                    <div class="we-produce-item we-produce-item-2">
                         <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
                         <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
                         <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
@@ -253,7 +284,7 @@
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
-                            <div class="swiper-slide" style="background-image: url('/img/slides/slide1.png');">
+                            <div class="swiper-slide swiper-slide-1">
                                 <div class="slide-block">
                                     <div class="slide-item-1">Современная методология разработки одухотворила всех причастных</div>
                                     <div class="slide-item-2">
@@ -262,7 +293,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide" style="background-image: url('/img/slides/slide2.png');">
+                            <div class="swiper-slide swiper-slide-2">
                                 <div class="slide-block">
                                     <div class="slide-item-1">Сложно сказать, почему жизнь прекрасна</div>
                                     <div class="slide-item-2">
@@ -272,7 +303,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
@@ -288,8 +318,8 @@
             <div class="full-width-container">
                 <div class="container content-part content-part-dop-2">
                     <div class="want-to-cooperate-block">
-                        <div class="want-to-cooperate-item"><img src="/img/spray-paint.png" class="img-1" alt="spray paint"></div>
-                        <div class="want-to-cooperate-item">
+                        <div class="want-to-cooperate-item want-to-cooperate-item-1"><img src="/img/spray-paint.png" class="img-1" alt="spray paint"></div>
+                        <div class="want-to-cooperate-item want-to-cooperate-item-2">
                             <h2 class="header-text header-text-1">Хотите сотрудничать?</h2>
                             <div class="business-and-clients-poditem">
                                 Оставьте заявку, наш менеджер свяжется с Вами
@@ -303,7 +333,7 @@
                             <div class="callback-form-input-block callback-form-input-block-1">
                                 <div class="callback-form-input-submit"><input type="submit" value="Отправить"></div>
                                 <div class="callback-form-text">
-                                    <div><img src="/img/shield.svg" alt="shield"></div>
+                                    <div class="callback-form-text-1"><img src="/img/shield.svg" alt="shield"></div>
                                     <span>
                                         Обращаясь к нам вы получаете не только профессиональную<br> работу,
                                         но и абсолютную конфиденциальность информации!
@@ -321,7 +351,7 @@
         <div class="full-width-container-footer-1">
             <div class="container content-part content-part-footer">
                 <div class="footer-block-1">
-                    <div class="footer-item-1 footer-item-logo"><img src="/img/bottom-logo.svg" alt="bottom-logo"></div>
+                    <div class="footer-item-1 footer-item-logo"><a href="/"><img src="/img/bottom-logo.svg" alt="bottom-logo"></a></div>
                     <div class="footer-item-1 footer-item-phone"><a href="#">+7 (499) 686-10-14</a></div>
                     <div class="footer-item-1 footer-item-address">г. Мосвка, Холодильный пер. 4к1с8</div>
                     <div class="footer-item-1 footer-item-mail">a.dragunov@tdaliance.ru</div>
@@ -346,14 +376,14 @@
                         <li><a href="#">Краски аэрозольные</a></li>
                     </ul>
                 </div>
-                <div class="container-footer-block">
+                <div class="container-footer-block container-footer-block-2">
                     <p>Собственные марки</p>
                     <ul>
                         <li><a href="#">Автохимия AG-Tech</a></li>
                         <li><a href="#">Автохимия AP</a></li>
                     </ul>
                 </div>
-                <div class="container-footer-block">
+                <div class="container-footer-block container-footer-block-3">
                     <p>О компании</p>
                     <ul>
                         <li><a href="#">Новости</a></li>
@@ -373,6 +403,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="/swiper.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
