@@ -2039,6 +2039,10 @@ a.callback:hover {
     .various-areas-block {
         height: auto;
     }
+
+    .add-text {
+        width: 80%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -2055,7 +2059,7 @@ a.callback:hover {
     }
 
     .uniting-block-1 h3 {
-        height: 15px;
+        height: 30px;
     }
 
     .various-areas-block {
@@ -2076,6 +2080,14 @@ a.callback:hover {
     }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    .header-background-dark {
+        height: 930px;
+    }
+
+    .header-background {
+        height: 930px;
+    }
+}
 
 @media (max-width: 320px) {}
