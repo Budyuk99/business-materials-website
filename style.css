@@ -1848,11 +1848,233 @@ a.callback:hover {
     .main-text {
         font-size: 40px;
     }
+
+    .header-background-dark {
+        display: block;
+        height: 955px;
+    }
+
+    .header-background {
+        height: 955px;
+    }
+
+    .header-bottom-block {
+        flex-wrap: wrap;
+    }
+
+    .header-bottom-item:nth-child(1n) {
+        border-right: 1px solid rgba(235, 235, 240, 0.4);
+    }
+
+    .schema-block {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .callback-form-input-block {
+        flex-direction: column;
+    }
+
+    .full-width-container {
+        height: 480px;
+    }
+
+    .footer-block-1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .container-footer-2 {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+    }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .header-background-dark {
+        display: block;
+        height: 955px;
+    }
 
-@media (max-width: 400px) {}
+    .header-background {
+        height: 955px;
+    }
+
+    .header-bottom-block {
+        flex-wrap: wrap;
+    }
+
+    .header-bottom-item:nth-child(1n) {
+        border-right: 1px solid rgba(235, 235, 240, 0.4);
+    }
+
+    .container {
+        margin: 0 15px;
+        margin-top: 60px;
+    }
+
+    .mobile-menu-item-3 {
+        flex-basis: 15%;
+    }
+
+    .mobile-menu-item-2 {
+        flex-basis: 70%;
+    }
+
+    .mobile-menu-item-1 {
+        flex-basis: 15%;
+    }
+
+    .schema-block {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .schema-item {
+        flex-basis: 45%;
+    }
+
+    .schema-block {
+        gap: 20px;
+    }
+
+    .leave-app-block-1 {
+        bottom: -20px;
+    }
+
+    .сontract-production-item {
+        flex-basis: 100%;
+    }
+
+    .сontract-production-item h3 {
+        height: 35px;
+    }
+
+    .own-trademarks-item {
+        flex-basis: 100%;
+    }
+
+    .own-trademarks-block {
+        flex-wrap: wrap;
+    }
+
+    .various-areas-item {
+        flex: 1;
+    }
+
+    .various-areas-item {
+        gap: 10px;
+    }
+
+    .slide-item-1 {
+        font-size: 17px;
+        padding: 0px 15px;
+        flex-basis: 65%;
+    }
+
+    .swiper-slide-active .slide-item-with-padding-1 {
+        padding-left: 40px;
+    }
+
+    .slide-item-2 {
+        padding: 0px 15px;
+    }
+
+    .slide-block {
+        gap: 10px;
+    }
+
+    .footer-item-logo a img {
+        width: 100%;
+    }
+
+    .footer-item-phone {
+        flex-basis: 35%;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .container-footer-item-1,
+    .container-footer-block ul {
+        height: auto;
+    }
+
+    .container-footer-block p {
+        margin-bottom: auto;
+    }
+
+    .container-footer-block-1,
+    .container-footer-block-2,
+    .container-footer-block-3 {
+        flex-basis: 50%;
+    }
+
+    .container-footer-2 {
+        margin-top: 20px;
+    }
+
+    .last-footer-item-1 {
+        flex-basis: 50%;
+    }
+
+    .container.content-part-dop-1 {
+        margin-left: 15px;
+    }
+
+    .uniting-block-1 h3 {
+        height: auto;
+        display: flex;
+        margin: 0;
+    }
+
+    .various-areas-block {
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .want-to-cooperate-block {
+        display: block;
+    }
+
+    .callback-form-input-block {
+        flex-direction: column;
+    }
+
+    .full-width-container {
+        height: 500px;
+    }
+
+    .uniting-block-1 h3 {
+        height: 15px;
+    }
+
+    .various-areas-block {
+        height: auto;
+    }
+
+    .footer-block-1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container-footer-2 {
+        margin-top: 20px;
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
 
 @media (max-width: 360px) {}
 

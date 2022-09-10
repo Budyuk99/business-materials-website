@@ -286,7 +286,7 @@
                             <!-- Slides -->
                             <div class="swiper-slide swiper-slide-1">
                                 <div class="slide-block">
-                                    <div class="slide-item-1">Современная методология разработки одухотворила всех причастных</div>
+                                    <div class="slide-item-1 slide-item-with-padding-1">Современная методология разработки одухотворила всех причастных</div>
                                     <div class="slide-item-2">
                                         Действия представителей оппозиции, превозмогая сложившуюся непростую
                                         экономическую ситуацию, в равной степени предоставлены...
@@ -295,7 +295,7 @@
                             </div>
                             <div class="swiper-slide swiper-slide-2">
                                 <div class="slide-block">
-                                    <div class="slide-item-1">Сложно сказать, почему жизнь прекрасна</div>
+                                    <div class="slide-item-1 slide-item-with-padding-1">Сложно сказать, почему жизнь прекрасна</div>
                                     <div class="slide-item-2">
                                         Сложно сказать, почему элементы политического процесса функционально разнесены на независимые
                                         элементы. Безусловно, высокотехнологичная...
