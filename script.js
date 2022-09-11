@@ -37,4 +37,15 @@ window.onload = function () {
             body.style.overflow = "auto";
         }
     }
+
+    let prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+        let currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.querySelector(".mobile-menu-block").style.top = "0";
+        } else {
+            document.querySelector(".mobile-menu-block").style.top = "-70px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
 }
