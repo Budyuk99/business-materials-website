@@ -2090,4 +2090,12 @@ a.callback:hover {
     }
 }
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    .header-background-dark {
+        height: 1110px;
+    }
+
+    .header-background {
+        height: 1110px;
+    }
+}
