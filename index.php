@@ -16,6 +16,33 @@
 </head>
 
 <body>
+    <section class="modal-window">
+        <div class="modal-window-block">
+            <div class="modal-window-item">
+                <h2 class="modal-header">Есть вопросы?</h2>
+                <span class="close-modal">X</span>
+            </div>
+            <div>
+                Оставьте заявку, наш менеджер свяжется с
+                Вами в ближайшее время ответит на все интересующие
+                вопросы и поможем даже в самых сложных случаях!
+            </div>
+            <div class="modal-callback-form-input-block">
+                <div class="callback-form-input-item"><input type="text" placeholder="Имя"></div>
+                <div class="callback-form-input-item"><label for="name">Номер телефона</label><input type="text" id="name"></div>
+            </div>
+
+            <div class="callback-form-input-submit"><input type="submit" value="Отправить"></div>
+            <div class="callback-form-text modal-callback-form-text">
+                <div class="callback-form-text-1"><img src="/img/shield.svg" alt="shield"></div>
+                <span>
+                    Обращаясь к нам вы получаете не только профессиональную работу,
+                    но и абсолютную конфиденциальность информации!
+                </span>
+            </div>
+        </div>
+    </section>
+
     <div class="mobile-menu-hidden">
         <div class="mobile-menu-block-test">
             <div class="mobile-menu-item-3-test"></div>
@@ -43,7 +70,9 @@
                     <div><a href="tel:+375292829932" class="mobile-phone"><img src="/img/phone.svg" alt="">+375 (29) 282-99-32</a></div>
                 </div>
             </div>
-            <div class="header-part-4"><a href="#" class="callback">Получить консультацию</a></div>
+            <div class="header-part-4">
+                <p class="callback open-modal">Получить консультацию</p>
+            </div>
         </div>
 
         <div class="mobile-menu-block">
@@ -244,8 +273,10 @@
             <div class="container content-part">
                 <div class="we-produce-block">
                     <div class="part-of-border-main we-produce-item we-produce-item-1">
-                        <div class="part-of-border"></div>
-                        <h2 class="header-text">Производим аэрозольную продукцию для разных сфер</h2>
+                        <div class="border-and-text">
+                            <div class="part-of-border"></div>
+                            <h2 class="header-text">Производим аэрозольную продукцию для разных сфер</h2>
+                        </div>
                         <div class="various-areas-block-main">
                             <ul class="various-areas-block">
                                 <li class="various-areas-item"><img src="/img/list-img/img1.svg"><span>Химические производства</span></li>
