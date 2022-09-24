@@ -15,7 +15,7 @@ window.addEventListener('scroll', function () {
 });
 
 window.onload = function () {
-
+    //mobile menu close/open
     let body = document.body;
     let mobileMenuOpen = document.querySelector('.mobile-menu-item-1');
     let mobileMenuClose = document.querySelector('.close');
@@ -36,6 +36,36 @@ window.onload = function () {
             mobileMenu.classList.remove('active-mobile-menu');
             body.style.overflow = "auto";
         }
+    }
+
+    //modal form close/open
+    let modalFormOpen = document.querySelector('.open-modal');
+    let modalFormClose = document.querySelector('.close-modal');
+    let modalModalForm = document.querySelector('.modal-window');
+
+    modalFormOpen.onclick = function () {
+        let modalWindow = document.querySelector('.modal-window');
+        if (!modalWindow.classList.contains('active')) {
+            modalWindow.classList.add('active');
+            body.style.overflow = "hidden";
+        }
+    }
+
+    modalFormClose.onclick = function () {
+        let modalWindow = document.querySelector('.modal-window');
+        if (modalWindow.classList.contains('active')) {
+            modalWindow.classList.remove('active');
+            body.style.overflow = "auto";
+        }
+    }
+
+    modalModalForm.onclick = function (e) {
+        let modalWindow = document.querySelector('.modal-window');
+
+        if (e.target.className == "modal-window active") {
+            modalWindow.classList.remove('active');
+            body.style.overflow = "auto";
+        };
     }
 
     let prevScrollpos = window.pageYOffset;

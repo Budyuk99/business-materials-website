@@ -169,7 +169,7 @@ body {
     border-bottom: solid 2px #5C8EE5;
 }
 
-a.callback {
+p.callback {
     display: flex;
     text-decoration: none;
     color: white;
@@ -180,9 +180,10 @@ a.callback {
     padding: 0 15px;
     flex: 1;
     transition: 0.3s;
+    cursor: pointer;
 }
 
-a.callback:hover {
+p.callback:hover {
     background-color: rgb(58, 113, 209);
 }
 
@@ -193,21 +194,21 @@ a.callback:hover {
     gap: 5px;
 }
 
+.mobile-phone:hover {
+    text-decoration: underline;
+}
+
 .header-background {
-    top: 0;
-    left: 0;
     width: 100%;
     height: max-content;
     display: inline-flex;
+    background: url('/img/main_img.png');
 }
 
 .header-background-dark {
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
-    position: absolute;
     display: inline-flex;
 }
 
@@ -221,12 +222,12 @@ a.callback:hover {
 }
 
 .text-on-main-banner {
-    position: relative;
-    top: 240px;
+    position: static;
+    margin-top: 180px;
 }
 
 .part-of-border {
-    width: 10%;
+    width: 100px;
     border: 1px solid #5C8EE5;
 }
 
@@ -271,7 +272,7 @@ a.callback:hover {
 .header-bottom-block {
     display: flex;
     color: white;
-    margin-top: 60px;
+    margin: 60px 0;
 }
 
 .header-bottom-item {
@@ -376,7 +377,7 @@ a.callback:hover {
 }
 
 .сontract-production-item {
-    flex-basis: 30%;
+    flex-basis: 33.33%;
     flex-grow: 1;
     border: solid 1px #EBEBF0;
     transition: 0.3s;
@@ -422,7 +423,7 @@ a.callback:hover {
 
 .banner-section {
     position: relative;
-    display: inline-flex;
+    display: flex;
 }
 
 .own-trademarks-block {
@@ -439,7 +440,7 @@ a.callback:hover {
 .own-trademarks-poditem {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 30px 0;
 }
 
 .own-trademarks-item-img {
@@ -449,6 +450,7 @@ a.callback:hover {
 .own-trademarks-poditem h3 {
     margin: 0;
     flex-grow: 1;
+    color: #292D33;
 }
 
 .own-trademarks-poditem .own-trademarks-poditem-text {
@@ -483,7 +485,7 @@ a.callback:hover {
 }
 
 .part-of-border-dop-1 {
-    width: 20%;
+    width: 100px;
     border: 1px solid #5C8EE5;
 }
 
@@ -501,6 +503,7 @@ a.callback:hover {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .we-produce-poditem {
@@ -525,6 +528,7 @@ a.callback:hover {
 .various-areas-item {
     gap: 20px;
     display: inline-flex;
+    margin-right: 20px;
 }
 
 .various-areas-item img {
@@ -557,7 +561,7 @@ a.callback:hover {
 .want-to-cooperate-item .img-1 {
     position: absolute;
     bottom: calc(100% - 500px);
-    width: 100%;
+    /* width: 100%; */
     right: 30%;
 }
 
@@ -627,6 +631,7 @@ a.callback:hover {
     font-family: 'Noto Sans';
     font-weight: 500;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .callback-form-input-submit input:hover {
@@ -703,6 +708,16 @@ a.callback:hover {
 .footer-item-mail {
     font-size: 16px;
     color: #828A99;
+}
+
+.footer-item-mail a {
+    font-size: 16px;
+    color: #828A99;
+    text-decoration: none;
+}
+
+.footer-item-mail a:hover {
+    text-decoration: underline;
 }
 
 .full-width-container-footer-1 {
@@ -998,6 +1013,113 @@ a.callback:hover {
     width: 32px;
 } */
 
+.modal-window-dark {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    z-index: -1;
+    transition: 0.3s;
+    border: solid 1px rgba(235, 235, 240, 0.4);
+}
+
+.modal-window {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.modal-window-block {
+    background-color: white;
+    width: 20%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgba(235, 235, 240, 0.4);
+}
+
+.modal-header {
+    margin: 0;
+    font-family: 'BebasNeueRegular';
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.modal-window-item {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.close-modal {
+    cursor: pointer;
+}
+
+.active {
+    opacity: 1;
+    z-index: 10000;
+}
+
+.modal-callback-form-input-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-callback-form-input-block .callback-form-input-item input {
+    position: relative;
+    margin: 10px;
+    line-height: 6ex;
+    background: transparent;
+    border: solid 1px #EBEBF0;
+    outline: none;
+    padding: 0 10px;
+    font-size: 18px;
+    margin-left: 0;
+    margin: 15px 0;
+}
+
+.modal-callback-form-input-block .callback-form-input-item label {
+    position: absolute;
+    z-index: 1;
+    left: 2em;
+    background-color: white;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #828A99;
+}
+
+.modal-window-block .callback-form-input-submit input {
+    flex: 1;
+}
+
+.modal-callback-form-text {
+    margin-top: 15px;
+}
+
+.big-a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-a-2 {
+    text-decoration: none;
+    display: flex;
+}
+
 @media (max-width: 1680px) {
     .callback-form-text {
         gap: 10px;
@@ -1010,10 +1132,6 @@ a.callback:hover {
 
     .callback-form-input-block-1 {
         gap: 15px;
-    }
-
-    .text-on-main-banner {
-        top: 130px;
     }
 
     .content-part {
@@ -1073,7 +1191,7 @@ a.callback:hover {
 }
 
 @media (max-width: 1440px) {
-    a.callback {
+    p.callback {
         text-align: center;
     }
 
@@ -1168,6 +1286,10 @@ a.callback:hover {
 
     .leave-app-link {
         font-size: 15px;
+    }
+
+    .various-areas-block {
+        height: auto;
     }
 }
 
@@ -1398,6 +1520,8 @@ a.callback:hover {
 
     .we-produce-item-2 {
         justify-content: center;
+        flex: 1;
+        flex-direction: row;
     }
 
     .slide-item-1 {
@@ -1502,17 +1626,13 @@ a.callback:hover {
         object-fit: cover;
     }
 
-    .text-on-main-banner {
-        top: 60px;
-    }
-
     .container {
-        margin: 0 50px;
+        margin: 0 25px;
         margin-top: 60px;
     }
 
     .banner-section {
-        height: 750px;
+        height: auto;
     }
 
     .main-text {
@@ -1549,13 +1669,7 @@ a.callback:hover {
         margin-top: 40px;
     }
 
-    /* .leave-app-block-1 {
-        position: absolute;
-        bottom: 0;
-    } */
-
     .schema-block {
-        /* position: relative; */
         display: flex;
         justify-content: flex-start;
         gap: 15px;
@@ -1563,6 +1677,7 @@ a.callback:hover {
 
     .schema-item {
         flex: 1;
+        position: relative;
     }
 
     .сontract-production-item h3 {
@@ -1577,6 +1692,7 @@ a.callback:hover {
 
     .own-trademarks-poditem {
         padding: 0px;
+        flex-basis: 80%;
     }
 
     .own-trademarks-item {
@@ -1585,10 +1701,13 @@ a.callback:hover {
 
     .own-trademarks-block {
         gap: 20px;
+        flex-direction: column;
     }
 
     .own-trademarks-item-img {
         padding: 10px;
+        flex-basis: 20%;
+        justify-content: center;
     }
 
     .header-text {
@@ -1597,10 +1716,6 @@ a.callback:hover {
     }
 
     .we-produce-item-1 {
-        flex: 2;
-    }
-
-    .we-produce-item-2 {
         flex: 1;
     }
 
@@ -1699,11 +1814,37 @@ a.callback:hover {
     }
 
     .container.content-part-dop-1 {
-        margin-left: 50px;
+        margin-left: 25px;
     }
 
     .mobile-menu-item-3 {
         background-color: #5C8EE6;
+    }
+
+    .mobile-menu-item-1 {
+        flex-basis: 10%;
+    }
+
+    .mobile-menu-item-2 {
+        flex-basis: 80%;
+    }
+
+    .mobile-menu-item-3 {
+        flex-basis: 10%;
+    }
+
+    .container-footer-item-1,
+    .container-footer-block ul {
+        height: auto;
+    }
+
+    .various-areas-item {
+        gap: 10px;
+        margin-right: 0;
+    }
+
+    .text-on-main-banner {
+        margin-top: 140px;
     }
 }
 
@@ -1758,18 +1899,22 @@ a.callback:hover {
 
     .own-trademarks-item-img {
         justify-content: center;
+        flex: 1;
     }
 
     .own-trademarks-item-img img {
         height: 125px;
+        width: 100%;
     }
 
     .own-trademarks-block {
         padding-bottom: 5px;
+        flex-direction: column;
     }
 
     .own-trademarks-poditem {
         padding: 20px;
+        flex: 2;
     }
 
     .business-and-clients-item-hidden-img {
@@ -1777,7 +1922,7 @@ a.callback:hover {
     }
 
     .container.content-part-dop-1 {
-        margin-left: 50px;
+        margin-left: 25px;
     }
 
     .we-produce-block {
@@ -1794,6 +1939,9 @@ a.callback:hover {
 
     .various-areas-block-main {
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 40vh;
     }
 
     .we-produce-poditem {
@@ -1851,11 +1999,11 @@ a.callback:hover {
 
     .header-background-dark {
         display: block;
-        height: 955px;
+        height: 100%;
     }
 
     .header-background {
-        height: 955px;
+        height: 100%;
     }
 
     .header-bottom-block {
@@ -1892,16 +2040,29 @@ a.callback:hover {
         align-items: center;
         gap: 7px;
     }
+
+    .banner-section {
+        height: auto;
+    }
+
+    .we-produce-item-1 {
+        flex-direction: column;
+    }
+
+    .various-areas-block {
+        height: 100%;
+        flex: 1;
+    }
 }
 
 @media (max-width: 480px) {
     .header-background-dark {
         display: block;
-        height: 955px;
+        height: auto;
     }
 
     .header-background {
-        height: 955px;
+        height: 100%;
     }
 
     .header-bottom-block {
@@ -1915,6 +2076,10 @@ a.callback:hover {
     .container {
         margin: 0 15px;
         margin-top: 60px;
+    }
+
+    .text-on-main-banner {
+        margin-top: 130px;
     }
 
     .mobile-menu-item-3 {
@@ -1939,11 +2104,11 @@ a.callback:hover {
     }
 
     .schema-block {
-        gap: 20px;
+        gap: 50px;
     }
 
     .leave-app-block-1 {
-        bottom: -20px;
+        bottom: -30px;
     }
 
     .сontract-production-item {
@@ -2043,6 +2208,18 @@ a.callback:hover {
     .add-text {
         width: 80%;
     }
+
+    .close {
+        right: 15px;
+    }
+
+    .various-areas-block-main {
+        height: 75vh;
+    }
+
+    .big-a-2 {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 400px) {
@@ -2082,20 +2259,24 @@ a.callback:hover {
 
 @media (max-width: 360px) {
     .header-background-dark {
-        height: 930px;
+        height: auto;
     }
 
     .header-background {
-        height: 930px;
+        height: auto;
     }
 }
 
 @media (max-width: 320px) {
     .header-background-dark {
-        height: 1110px;
+        height: 100%;
     }
 
     .header-background {
-        height: 1110px;
+        height: auto;
+    }
+
+    .header-bottom-block {
+        margin-bottom: 40px;
     }
 }

@@ -16,6 +16,33 @@
 </head>
 
 <body>
+    <section class="modal-window">
+        <div class="modal-window-block">
+            <div class="modal-window-item">
+                <h2 class="modal-header">Есть вопросы?</h2>
+                <span class="close-modal">X</span>
+            </div>
+            <div>
+                Оставьте заявку, наш менеджер свяжется с
+                Вами в ближайшее время ответит на все интересующие
+                вопросы и поможем даже в самых сложных случаях!
+            </div>
+            <div class="modal-callback-form-input-block">
+                <div class="callback-form-input-item"><input type="text" placeholder="Имя"></div>
+                <div class="callback-form-input-item"><label for="name">Номер телефона</label><input type="text" id="name"></div>
+            </div>
+
+            <div class="callback-form-input-submit"><input type="submit" value="Отправить"></div>
+            <div class="callback-form-text modal-callback-form-text">
+                <div class="callback-form-text-1"><img src="/img/shield.svg" alt="shield"></div>
+                <span>
+                    Обращаясь к нам вы получаете не только профессиональную работу,
+                    но и абсолютную конфиденциальность информации!
+                </span>
+            </div>
+        </div>
+    </section>
+
     <div class="mobile-menu-hidden">
         <div class="mobile-menu-block-test">
             <div class="mobile-menu-item-3-test"></div>
@@ -43,7 +70,9 @@
                     <div><a href="tel:+375292829932" class="mobile-phone"><img src="/img/phone.svg" alt="">+375 (29) 282-99-32</a></div>
                 </div>
             </div>
-            <div class="header-part-4"><a href="#" class="callback">Получить консультацию</a></div>
+            <div class="header-part-4">
+                <p class="callback open-modal">Получить консультацию</p>
+            </div>
         </div>
 
         <div class="mobile-menu-block">
@@ -60,29 +89,45 @@
     </header>
 
     <section class="banner-section">
-        <div class="header-background"><img src="/img/main_img.png" style="height: 100%;" alt="Main Background"></div>
-        <div class="header-background-dark">
-            <div class="container text-on-main-banner">
-                <div class="part-of-border-main">
-                    <div class="part-of-border"></div>
-                </div>
+        <div class="header-background">
+            <div class="header-background-dark">
+                <div class="container text-on-main-banner">
+                    <div class="part-of-border-main">
+                        <div class="part-of-border"></div>
+                    </div>
 
-                <h1 class="main-text">Комплексное обеспечение товарами<br>и расходными материалами бизнеса</h1>
+                    <h1 class="main-text">Комплексное обеспечение товарами<br>и расходными материалами бизнеса</h1>
 
-                <div class="add-text">
-                    Высокий уровень вовлечения представителей целевой аудитории является четким
-                    доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит
-                    от анализа существующих паттернов поведения.
-                </div>
+                    <div class="add-text">
+                        Высокий уровень вовлечения представителей целевой аудитории является четким
+                        доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит
+                        от анализа существующих паттернов поведения.
+                    </div>
 
-                <div class="about-company"><a href="#" class="about-company-link">Подробнее о компании</a></div>
+                    <div class="about-company"><a href="#" class="about-company-link">Подробнее о компании</a></div>
 
-                <div class="header-bottom-block">
-                    <div class="header-bottom-item"><img src="/img/Hourglass.svg"><span>Непрерывная работа c 2017 года</span></div>
-                    <div class="header-bottom-item"><img src="/img/List.svg"><span>Вся продукция сертифицирована</span></div>
-                    <div class="header-bottom-item"><img src="/img/Builder.svg"><span>Контроль качества на всех этапах</span></div>
-                    <div class="header-bottom-item"><img src="/img/Car.svg"><span>Возможны поставки по всей России</span></div>
-                    <div class="header-bottom-item"><img src="/img/Speedtest.svg"><span>Оперативное производство</span></div>
+                    <div class="header-bottom-block">
+                        <div class="header-bottom-item">
+                            <div><img src="/img/Hourglass.svg"></div>
+                            <span>Непрерывная работа c 2017 года</span>
+                        </div>
+                        <div class="header-bottom-item">
+                            <div><img src="/img/List.svg"></div>
+                            <span>Вся продукция сертифицирована</span>
+                        </div>
+                        <div class="header-bottom-item">
+                            <div><img src="/img/Builder.svg"></div>
+                            <span>Контроль качества на всех этапах</span>
+                        </div>
+                        <div class="header-bottom-item">
+                            <div><img src="/img/Car.svg"></div>
+                            <span>Возможны поставки по всей России</span>
+                        </div>
+                        <div class="header-bottom-item">
+                            <div><img src="/img/Speedtest.svg"></div>
+                            <span>Оперативное производство</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -136,46 +181,58 @@
                     <h2 class="header-text">Контрактное производство</h2>
                     <div class="сontract-production-block">
                         <div class="сontract-production-item">
-                            <div class="contracts-production-block">
-                                <h3>Автомобильная химия</h3>
-                                <div class="сontract-production-item-desc">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</div>
-                            </div>
-                            <div class="сontract-production-item-img"><img src="/img/prod1.png" alt=""></div>
+                            <a href="#" class="big-a">
+                                <div class="contracts-production-block">
+                                    <h3>Автомобильная химия</h3>
+                                    <div class="сontract-production-item-desc">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</div>
+                                </div>
+                                <div class="сontract-production-item-img"><img src="/img/prod1.png" alt=""></div>
+                            </a>
                         </div>
                         <div class="сontract-production-item">
-                            <div class="contracts-production-block">
-                                <h3>Бытовая химия</h3>
-                                <div class="сontract-production-item-desc">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</div>
-                            </div>
-                            <div class="сontract-production-item-img"><img src="/img/prod2.png" alt=""></div>
+                            <a href="#" class="big-a">
+                                <div class="contracts-production-block">
+                                    <h3>Бытовая химия</h3>
+                                    <div class="сontract-production-item-desc">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</div>
+                                </div>
+                                <div class="сontract-production-item-img"><img src="/img/prod2.png" alt=""></div>
+                            </a>
                         </div>
                         <div class="сontract-production-item">
-                            <div class="contracts-production-block">
-                                <h3>Дезинфицирующие средства</h3>
-                                <div class="сontract-production-item-desc">Лишь интерактивные прототипы призваны к ответу.</div>
-                            </div>
-                            <div class="сontract-production-item-img"><img src="/img/prod3.png" alt=""></div>
+                            <a href="#" class="big-a">
+                                <div class="contracts-production-block">
+                                    <h3>Дезинфицирующие средства</h3>
+                                    <div class="сontract-production-item-desc">Лишь интерактивные прототипы призваны к ответу.</div>
+                                </div>
+                                <div class="сontract-production-item-img"><img src="/img/prod3.png" alt=""></div>
+                            </a>
                         </div>
                         <div class="сontract-production-item">
-                            <div class="contracts-production-block">
-                                <h3>Пищевые аэрозоли</h3>
-                                <div class="сontract-production-item-desc">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</div>
-                            </div>
-                            <div class="сontract-production-item-img"><img src="/img/prod4.png" alt=""></div>
+                            <a href="#" class="big-a">
+                                <div class="contracts-production-block">
+                                    <h3>Пищевые аэрозоли</h3>
+                                    <div class="сontract-production-item-desc">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</div>
+                                </div>
+                                <div class="сontract-production-item-img"><img src="/img/prod4.png" alt=""></div>
+                            </a>
                         </div>
                         <div class="сontract-production-item">
-                            <div class="contracts-production-block">
-                                <h3>Косметическая продукция</h3>
-                                <div class="сontract-production-item-desc">Лишь интерактивные прототипы призваны к ответу.</div>
-                            </div>
-                            <div class="сontract-production-item-img"><img src="/img/prod5.png" alt=""></div>
+                            <a href="#" class="big-a">
+                                <div class="contracts-production-block">
+                                    <h3>Косметическая продукция</h3>
+                                    <div class="сontract-production-item-desc">Лишь интерактивные прототипы призваны к ответу.</div>
+                                </div>
+                                <div class="сontract-production-item-img"><img src="/img/prod5.png" alt=""></div>
+                            </a>
                         </div>
                         <div class="сontract-production-item">
-                            <div class="contracts-production-block">
-                                <h3>Краски аэрозольные</h3>
-                                <div class="сontract-production-item-desc">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</div>
-                            </div>
-                            <div class="сontract-production-item-img"><img src="/img/prod6.png" alt=""></div>
+                            <a href="#" class="big-a">
+                                <div class="contracts-production-block">
+                                    <h3>Краски аэрозольные</h3>
+                                    <div class="сontract-production-item-desc">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</div>
+                                </div>
+                                <div class="сontract-production-item-img"><img src="/img/prod6.png" alt=""></div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -187,24 +244,28 @@
                     <h2 class="header-text">Собственные торговые марки</h2>
                     <div class="own-trademarks-block">
                         <div class="own-trademarks-item">
-                            <div class="own-trademarks-item-img"><img src="/img/ag-tech.svg" alt="ag-tech"></div>
-                            <div class="own-trademarks-poditem">
-                                <h3>Автохимия AG-Tech</h3>
-                                <div class="own-trademarks-poditem-text">
-                                    Для современного мира разбавленное изрядной долей эмпатии,
-                                    рациональное мышление создаёт предпосылки для поставленных обществом задач.
+                            <a href="#" class="big-a-2">
+                                <div class="own-trademarks-item-img"><img src="/img/ag-tech.svg" alt="ag-tech"></div>
+                                <div class="own-trademarks-poditem">
+                                    <h3>Автохимия AG-Tech</h3>
+                                    <div class="own-trademarks-poditem-text">
+                                        Для современного мира разбавленное изрядной долей эмпатии,
+                                        рациональное мышление создаёт предпосылки для поставленных обществом задач.
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="own-trademarks-item">
-                            <div class="own-trademarks-item-img"><img src="/img/aliance-production.svg" alt="ag-tech"></div>
-                            <div class="own-trademarks-poditem">
-                                <h3>Автохимия AP</h3>
-                                <div class="own-trademarks-poditem-text">
-                                    Для современного мира разбавленное изрядной долей эмпатии,
-                                    рациональное мышление создаёт предпосылки для поставленных обществом задач.
+                            <a href="#" class="big-a-2">
+                                <div class="own-trademarks-item-img"><img src="/img/aliance-production.svg" alt="ag-tech"></div>
+                                <div class="own-trademarks-poditem">
+                                    <h3>Автохимия AP</h3>
+                                    <div class="own-trademarks-poditem-text">
+                                        Для современного мира разбавленное изрядной долей эмпатии,
+                                        рациональное мышление создаёт предпосылки для поставленных обществом задач.
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -244,8 +305,10 @@
             <div class="container content-part">
                 <div class="we-produce-block">
                     <div class="part-of-border-main we-produce-item we-produce-item-1">
-                        <div class="part-of-border"></div>
-                        <h2 class="header-text">Производим аэрозольную продукцию для разных сфер</h2>
+                        <div class="border-and-text">
+                            <div class="part-of-border"></div>
+                            <h2 class="header-text">Производим аэрозольную продукцию для разных сфер</h2>
+                        </div>
                         <div class="various-areas-block-main">
                             <ul class="various-areas-block">
                                 <li class="various-areas-item"><img src="/img/list-img/img1.svg"><span>Химические производства</span></li>
@@ -354,7 +417,7 @@
                     <div class="footer-item-1 footer-item-logo"><a href="/"><img src="/img/bottom-logo.svg" alt="bottom-logo"></a></div>
                     <div class="footer-item-1 footer-item-phone"><a href="#">+7 (499) 686-10-14</a></div>
                     <div class="footer-item-1 footer-item-address">г. Мосвка, Холодильный пер. 4к1с8</div>
-                    <div class="footer-item-1 footer-item-mail">a.dragunov@tdaliance.ru</div>
+                    <div class="footer-item-1 footer-item-mail"><a href="#">a.dragunov@tdaliance.ru</a></div>
                     <div class="footer-item-1 footer-item-social">
                         <a href="#"><img src="/img/vk.svg" alt="vk"></a>
                         <a href="#"><img src="/img/instagram.svg" alt="instagram"></a>
