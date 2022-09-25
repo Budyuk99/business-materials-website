@@ -38,7 +38,7 @@ window.onload = function () {
         }
     }
 
-    //modal form close/open
+    //modal form close/open START
     let modalFormOpen = document.querySelector('.open-modal');
     let modalFormClose = document.querySelector('.close-modal');
     let modalModalForm = document.querySelector('.modal-window');
@@ -67,6 +67,38 @@ window.onload = function () {
             body.style.overflow = "auto";
         };
     }
+    //modal form close/open END
+
+    //modal-mobile form close/open START
+    let modalMobileFormOpen = document.querySelector('.open-modal-mobile');
+    let modalMobileFormClose = document.querySelector('.close-modal-mobile');
+    let modalModalMobileForm = document.querySelector('.modal-window-mobile');
+
+    modalMobileFormOpen.onclick = function () {
+        let modalWindow = document.querySelector('.modal-window-mobile');
+        if (!modalWindow.classList.contains('active')) {
+            modalWindow.classList.add('active');
+            body.style.overflow = "hidden";
+        }
+    }
+
+    modalMobileFormClose.onclick = function () {
+        let modalWindow = document.querySelector('.modal-window-mobile');
+        if (modalWindow.classList.contains('active')) {
+            modalWindow.classList.remove('active');
+            body.style.overflow = "auto";
+        }
+    }
+
+    modalModalMobileForm.onclick = function (e) {
+        let modalWindow = document.querySelector('.modal-window-mobile');
+
+        if (e.target.className == "modal-window-mobile active") {
+            modalWindow.classList.remove('active');
+            body.style.overflow = "auto";
+        };
+    }
+    //modal-mobile form close/open END
 
     let prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
