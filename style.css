@@ -377,7 +377,7 @@ p.callback:hover {
 }
 
 .сontract-production-item {
-    flex-basis: 33.33%;
+    flex-basis: 30%;
     flex-grow: 1;
     border: solid 1px #EBEBF0;
     transition: 0.3s;
@@ -922,6 +922,8 @@ p.callback:hover {
 .mobile-menu-hidden {
     opacity: 0;
     transition: 0.2s;
+    position: fixed;
+    overflow: auto;
 }
 
 .close:before,
@@ -968,23 +970,23 @@ p.callback:hover {
     align-items: flex-end;
 }
 
-.mobile-menu-block-test {
+.mobile-menu-block-header {
     display: flex;
-    position: fixed;
+    position: relative;
     z-index: 1000;
     width: 100%;
     height: 70px;
 }
 
-.mobile-menu-item-3-test {
+.mobile-menu-item-3-header {
     flex-basis: 10%;
 }
 
-.mobile-menu-item-2-test {
+.mobile-menu-item-2-header {
     flex-basis: 80%;
 }
 
-.mobile-menu-item-1-test {
+.mobile-menu-item-1-header {
     flex-basis: 10%;
     position: relative;
 }
@@ -1042,6 +1044,20 @@ p.callback:hover {
     transition: 0.3s;
 }
 
+.modal-window-mobile {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
 .modal-window-block {
     background-color: white;
     width: 20%;
@@ -1070,6 +1086,7 @@ p.callback:hover {
 .active {
     opacity: 1;
     z-index: 10000;
+    overflow: auto;
 }
 
 .modal-callback-form-input-block {
@@ -1118,6 +1135,68 @@ p.callback:hover {
 .big-a-2 {
     text-decoration: none;
     display: flex;
+}
+
+.mobile-menu-hidden-body {
+    display: flex;
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-menu-hidden-body .main-ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+.mobile-menu-hidden-body .main-ul li a {
+    list-style: none;
+    color: #292D33;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.mobile-menu-hidden-body .pod-ul {
+    list-style: none;
+}
+
+.mobile-menu-hidden-body .pod-ul li a {
+    list-style: none;
+    color: #828A99;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.mobile-menu-hidden-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap: 0;
+}
+
+.mobile-menu-hidden-footer .footer-item-phone-mobile a {
+    font-size: 20px;
+}
+
+.footer-item-address-mobile {
+    gap: 10px;
+}
+
+.footer-item-mail-mobile {
+    gap: 10px;
+}
+
+.footer-item-mail-mobile a {
+    text-decoration: none;
+    color: #292D33;
+}
+
+.footer-item-social-mobile {
+    gap: 20px;
 }
 
 @media (max-width: 1680px) {
@@ -1180,13 +1259,12 @@ p.callback:hover {
         margin-top: 25px;
     }
 
-    /* .header-text {
-        margin-top: 60px;
-        margin-bottom: 25px;
-    } */
-
     .business-and-clients-block {
         gap: 55px;
+    }
+
+    .modal-window-block {
+        width: 25%;
     }
 }
 
@@ -1424,6 +1502,10 @@ p.callback:hover {
     .schema-number {
         font-size: 25px;
     }
+
+    .modal-window-block {
+        width: 33%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1603,6 +1685,10 @@ p.callback:hover {
 
     .last-footer-item-3 {
         height: max-content;
+    }
+
+    .сontract-production-item {
+        flex-basis: 30%;
     }
 }
 
@@ -2053,6 +2139,14 @@ p.callback:hover {
         height: 100%;
         flex: 1;
     }
+
+    .сontract-production-item {
+        flex-basis: 33.33%;
+    }
+
+    .modal-window-block {
+        width: 44%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -2128,7 +2222,7 @@ p.callback:hover {
     }
 
     .various-areas-item {
-        flex: 1;
+        flex-basis: 5%;
     }
 
     .various-areas-item {
@@ -2214,11 +2308,33 @@ p.callback:hover {
     }
 
     .various-areas-block-main {
-        height: 75vh;
+        height: auto;
     }
 
     .big-a-2 {
         flex-direction: column;
+    }
+
+    .modal-window-block {
+        width: 75%;
+    }
+
+    .modal-header {
+        font-size: 40px;
+    }
+
+    .modal-window-mobile-text {
+        font-size: 14px;
+        color: #828A99;
+        margin-top: 15px;
+    }
+
+    .modal-callback-form-input-block .callback-form-input-item input {
+        font-size: 14px;
+    }
+
+    .header-bottom-item {
+        flex-basis: 25%;
     }
 }
 
@@ -2240,12 +2356,12 @@ p.callback:hover {
     }
 
     .various-areas-block {
-        height: auto;
+        height: max-content;
     }
 
     .footer-block-1 {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .container-footer-2 {
@@ -2254,6 +2370,19 @@ p.callback:hover {
         display: flex;
         align-items: flex-start;
         gap: 10px;
+    }
+
+    .header-bottom-item {
+        flex-basis: 30%;
+    }
+
+    .mobile-menu-hidden-body .main-ul {
+        padding-left: 25px;
+        font-size: 14px;
+    }
+
+    .mobile-menu-hidden-footer {
+        padding-left: 25px;
     }
 }
 
