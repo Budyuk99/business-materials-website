@@ -478,6 +478,7 @@
 
         </main>
     </section>
+
     <footer>
         <div class="full-width-container-footer-1">
             <div class="container content-part content-part-footer">
