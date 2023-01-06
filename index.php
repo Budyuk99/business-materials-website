@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link type="image/x-icon" href="/img/favicon.png" rel="shortcut icon">
-    <link type="Image/x-icon" href="/img/favicon.png" rel="icon">
+    <link type="image/x-icon" href="img/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="img/favicon.png" rel="icon">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Главная страница</title>
 </head>
@@ -35,7 +35,7 @@
 
             <div class="callback-form-input-submit"><input type="submit" value="Отправить"></div>
             <div class="callback-form-text modal-callback-form-text">
-                <div class="callback-form-text-1"><img src="/img/shield.svg" alt="shield"></div>
+                <div class="callback-form-text-1"><img src="img/shield.svg" alt="shield"></div>
                 <span>
                     Обращаясь к нам вы получаете не только профессиональную работу,
                     но и абсолютную конфиденциальность информации!
@@ -63,7 +63,7 @@
 
             <div class="callback-form-input-submit"><input type="submit" value="Отправить"></div>
             <div class="callback-form-text modal-callback-form-text">
-                <div class="callback-form-text-1"><img src="/img/shield.svg" alt="shield"></div>
+                <div class="callback-form-text-1"><img src="img/shield.svg" alt="shield"></div>
                 <span>
                     Обращаясь к нам вы получаете не только профессиональную работу,
                     но и абсолютную конфиденциальность информации!
@@ -74,7 +74,7 @@
 
     <header style="position: relative;">
         <div class="header">
-            <div class="header-part-1"><a href="/"><img src="/img/logo.svg" alt="Alliance Production"></a></div>
+            <div class="header-part-1"><a href="/"><img src="img/logo.svg" alt="Alliance Production"></a></div>
             <div class="container header-container">
                 <div class="header-part-2">
                     <ul class="main-menu">
@@ -86,7 +86,7 @@
                     </ul>
                 </div>
                 <div class="header-part-3">
-                    <div><a href="tel:+375292829932" class="mobile-phone"><img src="/img/phone.svg" alt="">+375 (29) 282-99-32</a></div>
+                    <div><a href="tel:+375292829932" class="mobile-phone"><img src="img/phone.svg" alt="">+375 (29) 282-99-32</a></div>
                 </div>
             </div>
             <div class="header-part-4">
@@ -95,8 +95,8 @@
         </div>
 
         <div class="mobile-menu-block">
-            <div class="mobile-menu-item-3 open-modal-mobile"><img src="/img/phone-white.svg" alt="phone-white"></div>
-            <div class="mobile-menu-item-2"><a href="/"><img src="/img/logo.svg" alt="Alliance Production"></a></div>
+            <div class="mobile-menu-item-3 open-modal-mobile"><img src="img/phone-white.svg" alt="phone-white"></div>
+            <div class="mobile-menu-item-2"><a href="/"><img src="img/logo.svg" alt="Alliance Production"></a></div>
             <div class="mobile-menu-item-1">
                 <div class="mobile-menu-block-2">
                     <div class="mobile-menu-part mobile-menu-part-first"></div>
@@ -142,16 +142,16 @@
         <div class="mobile-menu-hidden-footer">
             <div class="footer-item-1 footer-item-phone footer-item-phone-mobile"><a href="#">+7 (499) 686-10-14</a></div>
             <div class="footer-item-1 footer-item-address-mobile" style="margin-top: 20px;">
-                <span><img src="/img/mark.svg" alt="mark"></span>
+                <span><img src="img/mark.svg" alt="mark"></span>
                 <span>г. Мосвка, Холодильный пер. 4к1с8</span>
             </div>
             <div class="footer-item-1 footer-item-mail-mobile">
-                <span><img src="/img/mail.svg" alt="mail"></span>
+                <span><img src="img/mail.svg" alt="mail"></span>
                 <a href="#">a.dragunov@tdaliance.ru</a>
             </div>
             <div class="footer-item-1 footer-item-social-mobile" style="margin-top: 20px;">
-                <a href="#"><img src="/img/vk.svg" alt="vk"></a>
-                <a href="#"><img src="/img/instagram.svg" alt="instagram"></a>
+                <a href="#"><img src="img/vk.svg" alt="vk"></a>
+                <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
             </div>
         </div>
     </div>
@@ -176,23 +176,23 @@
 
                     <div class="header-bottom-block">
                         <div class="header-bottom-item">
-                            <div><img src="/img/Hourglass.svg"></div>
+                            <div><img src="img/Hourglass.svg"></div>
                             <span>Непрерывная работа c 2017 года</span>
                         </div>
                         <div class="header-bottom-item">
-                            <div><img src="/img/List.svg"></div>
+                            <div><img src="img/List.svg"></div>
                             <span>Вся продукция сертифицирована</span>
                         </div>
                         <div class="header-bottom-item">
-                            <div><img src="/img/Builder.svg"></div>
+                            <div><img src="img/Builder.svg"></div>
                             <span>Контроль качества на всех этапах</span>
                         </div>
                         <div class="header-bottom-item">
-                            <div><img src="/img/Car.svg"></div>
+                            <div><img src="img/Car.svg"></div>
                             <span>Возможны поставки по всей России</span>
                         </div>
                         <div class="header-bottom-item">
-                            <div><img src="/img/Speedtest.svg"></div>
+                            <div><img src="img/Speedtest.svg"></div>
                             <span>Оперативное производство</span>
                         </div>
                     </div>
@@ -254,7 +254,7 @@
                                     <h3>Автомобильная химия</h3>
                                     <div class="сontract-production-item-desc">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</div>
                                 </div>
-                                <div class="сontract-production-item-img"><img src="/img/prod1.png" alt=""></div>
+                                <div class="сontract-production-item-img"><img src="img/prod1.png" alt=""></div>
                             </a>
                         </div>
                         <div class="сontract-production-item">
@@ -263,7 +263,7 @@
                                     <h3>Бытовая химия</h3>
                                     <div class="сontract-production-item-desc">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</div>
                                 </div>
-                                <div class="сontract-production-item-img"><img src="/img/prod2.png" alt=""></div>
+                                <div class="сontract-production-item-img"><img src="img/prod2.png" alt=""></div>
                             </a>
                         </div>
                         <div class="сontract-production-item">
@@ -272,7 +272,7 @@
                                     <h3>Дезинфицирующие средства</h3>
                                     <div class="сontract-production-item-desc">Лишь интерактивные прототипы призваны к ответу.</div>
                                 </div>
-                                <div class="сontract-production-item-img"><img src="/img/prod3.png" alt=""></div>
+                                <div class="сontract-production-item-img"><img src="img/prod3.png" alt=""></div>
                             </a>
                         </div>
                         <div class="сontract-production-item">
@@ -281,7 +281,7 @@
                                     <h3>Пищевые аэрозоли</h3>
                                     <div class="сontract-production-item-desc">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</div>
                                 </div>
-                                <div class="сontract-production-item-img"><img src="/img/prod4.png" alt=""></div>
+                                <div class="сontract-production-item-img"><img src="img/prod4.png" alt=""></div>
                             </a>
                         </div>
                         <div class="сontract-production-item">
@@ -290,7 +290,7 @@
                                     <h3>Косметическая продукция</h3>
                                     <div class="сontract-production-item-desc">Лишь интерактивные прототипы призваны к ответу.</div>
                                 </div>
-                                <div class="сontract-production-item-img"><img src="/img/prod5.png" alt=""></div>
+                                <div class="сontract-production-item-img"><img src="img/prod5.png" alt=""></div>
                             </a>
                         </div>
                         <div class="сontract-production-item">
@@ -299,7 +299,7 @@
                                     <h3>Краски аэрозольные</h3>
                                     <div class="сontract-production-item-desc">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</div>
                                 </div>
-                                <div class="сontract-production-item-img"><img src="/img/prod6.png" alt=""></div>
+                                <div class="сontract-production-item-img"><img src="img/prod6.png" alt=""></div>
                             </a>
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                     <div class="own-trademarks-block">
                         <div class="own-trademarks-item">
                             <a href="#" class="big-a-2">
-                                <div class="own-trademarks-item-img"><img src="/img/ag-tech.svg" alt="ag-tech"></div>
+                                <div class="own-trademarks-item-img"><img src="img/ag-tech.svg" alt="ag-tech"></div>
                                 <div class="own-trademarks-poditem">
                                     <h3>Автохимия AG-Tech</h3>
                                     <div class="own-trademarks-poditem-text">
@@ -325,7 +325,7 @@
                         </div>
                         <div class="own-trademarks-item">
                             <a href="#" class="big-a-2">
-                                <div class="own-trademarks-item-img"><img src="/img/aliance-production.svg" alt="ag-tech"></div>
+                                <div class="own-trademarks-item-img"><img src="img/aliance-production.svg" alt="ag-tech"></div>
                                 <div class="own-trademarks-poditem">
                                     <h3>Автохимия AP</h3>
                                     <div class="own-trademarks-poditem-text">
@@ -343,7 +343,7 @@
             <div class="container content-part-dop-1">
                 <div class="part-of-border-main">
                     <div class="business-and-clients-block">
-                        <div class="business-and-clients-item business-and-clients-item-hidden-img-1"><img src="/img/men.png" alt=""></div>
+                        <div class="business-and-clients-item business-and-clients-item-hidden-img-1"><img src="img/men.png" alt=""></div>
                         <div class="business-and-clients-item">
                             <div class="part-of-border-dop-1"></div>
                             <h2 class="header-text">Отношение к делу и к клиентам</h2>
@@ -379,29 +379,29 @@
                         </div>
                         <div class="various-areas-block-main">
                             <ul class="various-areas-block">
-                                <li class="various-areas-item"><img src="/img/list-img/img1.svg"><span>Химические производства</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img2.svg"><span>Автомойки</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img3.svg"><span>Пищевая продукция</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img4.svg"><span>Лаки и краски</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img5.svg"><span>Косметические средства</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img6.svg"><span>Автомобильная косметика</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img7.svg"><span>Косметика по уходу за одеждой</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img8.svg"><span>Косметика по уходу за обувью</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img9.svg"><span>Строительные материалы</span></li>
-                                <li class="various-areas-item"><img src="/img/list-img/img10.svg"><span>И многих других</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img1.svg"><span>Химические производства</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img2.svg"><span>Автомойки</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img3.svg"><span>Пищевая продукция</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img4.svg"><span>Лаки и краски</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img5.svg"><span>Косметические средства</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img6.svg"><span>Автомобильная косметика</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img7.svg"><span>Косметика по уходу за одеждой</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img8.svg"><span>Косметика по уходу за обувью</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img9.svg"><span>Строительные материалы</span></li>
+                                <li class="various-areas-item"><img src="img/list-img/img10.svg"><span>И многих других</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="we-produce-item we-produce-item-2">
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
-                        <div class="we-produce-poditem"><img src="/img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
+                        <div class="we-produce-poditem"><img src="img/Burger_King_logo.png" alt="Burger_King_logo"></div>
                     </div>
                 </div>
             </div>
@@ -449,7 +449,7 @@
             <div class="full-width-container">
                 <div class="container content-part content-part-dop-2">
                     <div class="want-to-cooperate-block">
-                        <div class="want-to-cooperate-item want-to-cooperate-item-1"><img src="/img/spray-paint.png" class="img-1" alt="spray paint"></div>
+                        <div class="want-to-cooperate-item want-to-cooperate-item-1"><img src="img/spray-paint.png" class="img-1" alt="spray paint"></div>
                         <div class="want-to-cooperate-item want-to-cooperate-item-2">
                             <h2 class="header-text header-text-1">Хотите сотрудничать?</h2>
                             <div class="business-and-clients-poditem">
@@ -464,7 +464,7 @@
                             <div class="callback-form-input-block callback-form-input-block-1">
                                 <div class="callback-form-input-submit"><input type="submit" value="Отправить"></div>
                                 <div class="callback-form-text">
-                                    <div class="callback-form-text-1"><img src="/img/shield.svg" alt="shield"></div>
+                                    <div class="callback-form-text-1"><img src="img/shield.svg" alt="shield"></div>
                                     <span>
                                         Обращаясь к нам вы получаете не только профессиональную<br> работу,
                                         но и абсолютную конфиденциальность информации!
@@ -482,19 +482,19 @@
         <div class="full-width-container-footer-1">
             <div class="container content-part content-part-footer">
                 <div class="footer-block-1">
-                    <div class="footer-item-1 footer-item-logo"><a href="/"><img src="/img/bottom-logo.svg" alt="bottom-logo"></a></div>
+                    <div class="footer-item-1 footer-item-logo"><a href="/"><img src="img/bottom-logo.svg" alt="bottom-logo"></a></div>
                     <div class="footer-item-1 footer-item-phone"><a href="#">+7 (499) 686-10-14</a></div>
                     <div class="footer-item-1 footer-item-address">
-                        <span><img src="/img/mark.svg" alt=""></span>
+                        <span><img src="img/mark.svg" alt=""></span>
                         <span>г. Мосвка, Холодильный пер. 4к1с8</span>
                     </div>
                     <div class="footer-item-1 footer-item-mail">
-                        <span><img src="/img/mail.svg" alt=""></span>
+                        <span><img src="img/mail.svg" alt=""></span>
                         <a href="#">a.dragunov@tdaliance.ru</a>
                     </div>
                     <div class="footer-item-1 footer-item-social">
-                        <a href="#"><img src="/img/vk.svg" alt="vk"></a>
-                        <a href="#"><img src="/img/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="img/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
                     </div>
                 </div>
             </div>
@@ -534,13 +534,13 @@
             <div class="container container-footer-2">
                 <div class="last-footer-item-1">© 2022 «Aliance Production». Все права защищены.</div>
                 <div class="last-footer-item-2"><a href="#">Политики конфиденциальности</a></div>
-                <div class="last-footer-item-3"><span>Сделано в</span><img src="/img/ruso.svg" alt="ruso"></div>
+                <div class="last-footer-item-3"><span>Сделано в</span><img src="img/ruso.svg" alt="ruso"></div>
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/swiper.js"></script>
-    <script src="/script.js"></script>
+    <script src="swiper.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

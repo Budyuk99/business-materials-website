@@ -59,12 +59,12 @@ body {
 }
 
 .swiper-slide-1 {
-    background: url('/img/slides/slide1.png') center center;
+    background: url('img/slides/slide1.png') center center;
     background-size: cover !important;
 }
 
 .swiper-slide-2 {
-    background: url('/img/slides/slide2.png') center center;
+    background: url('img/slides/slide2.png') center center;
     background-size: cover !important;
 }
 
@@ -202,7 +202,7 @@ p.callback:hover {
     width: 100%;
     height: max-content;
     display: inline-flex;
-    background: url('/img/main_img.png');
+    background: url('img/main_img.png');
 }
 
 .header-background-dark {
@@ -893,7 +893,7 @@ p.callback:hover {
 }
 
 .business-and-clients-item-hidden-img {
-    background-image: url('/img/men.png');
+    background-image: url('img/men.png');
     display: none;
 }
 
@@ -1884,7 +1884,7 @@ p.callback:hover {
     }
 
     .business-and-clients-item-hidden-img {
-        background-image: url('/img/men.png');
+        background-image: url('img/men.png');
         display: flex;
         height: 430px;
         background-size: cover;
